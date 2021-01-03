@@ -30,3 +30,6 @@
 yarn-debug.log*
 # .yarn-integrity
 public/uploads/*
+
+# .DS_Storeが生成されないようにする
+.DS_Store
