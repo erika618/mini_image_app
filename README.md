@@ -11,14 +11,15 @@ mini_image_app
 
 画像投稿する際に、プレビューしてからの添付、画像の複数枚投稿ができます。
 
+- プレビュー機能
 https://gyazo.com/25a6dd49b41c491a72be399e8f2facd4
+- 複数枚投稿機能
+https://gyazo.com/7b7507a433e7fee20ea80acdeb200b3c
 
 
 # ER図
 
-[erd.pdf](https://github.com/erika618/mini_image_app/files/5760154/erd.pdf)
-
-
+[erd.pdf](https://github.com/erika618/mini_image_app/files/5765152/erd.pdf)
 
 # テーブル設計
 
