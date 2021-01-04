@@ -28,7 +28,8 @@ https://gyazo.com/25a6dd49b41c491a72be399e8f2facd4
 | :------- | :-----  | :---------- |
 | content  | string  | null: false |
 
-画像アップロードに、active_storageを使用。
+- has_many_attached :images
+- 画像アップロードに、active_storageを使用。
 
 <br>
 <br>
