@@ -32,7 +32,9 @@ class MessagesController < ApplicationController
   private
 
   def message_params
-    params.require(:message).permit(:content, :image)
+    # 画像の配列を受け取れるように変更
+    # name属性の値を指定することで、その要素から送られた値が取得できる
+    params.require(:message).permit(:content, images: [])
   end
 
   def set_message
